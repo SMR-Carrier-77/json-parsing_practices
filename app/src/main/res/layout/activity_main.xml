@@ -34,7 +34,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:background="#A29314"
         android:layout_margin="10dp"
         >
 
@@ -44,6 +43,7 @@
             android:layout_height="wrap_content"
             android:text="Name"
             android:textSize="30sp"
+            android:background="#FF5722"
 
             />
 
@@ -53,7 +53,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:background="#009688"
             android:padding="10dp"
             android:textSize="25sp"
 
@@ -64,6 +63,7 @@
             android:layout_height="wrap_content"
             android:text="Mobile"
             android:textSize="30sp"
+            android:background="#FF5722"
             android:layout_marginTop="15dp"
 
             />
@@ -74,7 +74,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:background="#009688"
             android:padding="10dp"
             android:textSize="25sp"
 
@@ -85,6 +84,7 @@
             android:layout_height="wrap_content"
             android:text="Email"
             android:textSize="30sp"
+            android:background="#FF5722"
             android:layout_marginTop="15dp"
 
             />
@@ -95,7 +95,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="25sp"
-            android:background="#009688"
             android:padding="10dp"
             android:layout_marginTop="10dp"
 
@@ -105,6 +104,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Address"
+            android:background="#FF5722"
             android:textSize="30sp"
             android:layout_marginTop="15dp"
 
@@ -115,7 +115,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="25sp"
-            android:background="#009688"
             android:padding="10dp"
             android:layout_marginTop="10dp"
 

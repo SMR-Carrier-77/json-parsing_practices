@@ -1,5 +1,6 @@
 package com.example.jsonparsing_practices
 
+import android.location.Address
 import android.os.Bundle
 import android.util.Log
 import android.view.View
@@ -9,6 +10,7 @@ import com.android.volley.Response
 import com.android.volley.toolbox.StringRequest
 import com.android.volley.toolbox.Volley
 import com.example.jsonparsing_practices.databinding.ActivityMainBinding
+import org.json.JSONObject
 import kotlin.math.log
 
 
@@ -36,7 +38,17 @@ class MainActivity : AppCompatActivity() {
                 { response ->
                     // Show the JSON response in a TextView
                     binding.progressbar.visibility=View.GONE
-                    Log.d("serversres", response)
+                    Log.d("sserversre", response)
+                    var jsonObject: JSONObject= JSONObject(response)
+                    var Name: String= jsonObject.getString("name")
+                    var Mobile: String= jsonObject.getString("mobile")
+                    var Email: String= jsonObject.getString("email")
+                    var Address: String= jsonObject.getString("address")
+
+                    binding.textView1.text=Name
+                    binding.textView2.text=Mobile
+                    binding.textView3.text=Email
+                    binding.textView4.text=Address
 
 
                 },
